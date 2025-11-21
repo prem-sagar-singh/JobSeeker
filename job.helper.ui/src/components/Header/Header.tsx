@@ -8,6 +8,7 @@ const Header: React.FC = () => {
   const location = useLocation();
 
   //Check if the current page is the home page;
+
   const isHomePage = location.pathname === "/";
 
   const handleLogoClick = () => {
